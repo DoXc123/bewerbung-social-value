@@ -1,0 +1,4 @@
+[
+  { "id": "best-pet", "title": "Best pet", "options": ["Cat", "Dog", "Fish"] },
+  { "id": "tabs-or-spaces", "title": "Tabs or spaces?", "options": ["Tabs", "Spaces"] }
+]

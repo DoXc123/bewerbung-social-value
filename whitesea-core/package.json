@@ -1,0 +1,16 @@
+{
+  "name": "whitesea-core",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "WhiteSea island mode: pure-TypeScript simulation core and its tests (extract)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vitest": "3.2.7"
+  }
+}
