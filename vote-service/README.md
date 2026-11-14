@@ -83,9 +83,10 @@ vote. This service does the same, with the sending mocked.
 What is stored: the number and the code only as **HMAC-SHA256 with the server's
 secret** (`verify.ts`). There are only about a billion mobile numbers, so a plain
 hash could be reversed by trying them all; a keyed one can't without the secret.
-A test reads the whole database file and checks that neither a number nor a code
-is in it. The code hash is bound to the contest and the voter, so a code read off
-someone else's screen does not work from another browser.
+A test reads every row of the `votes` and `pending_votes` tables and checks that
+neither a number nor a code is in them. The code hash is bound to the contest and
+the voter, so a code read off someone else's screen does not work from another
+browser.
 
 The sender is an interface (`sms.ts`: `send(to, text)`, async, may fail). The only
 implementation logs the message. A real provider would be one more implementation;

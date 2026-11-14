@@ -3,7 +3,7 @@
 A Telegram bot that turns a spoken brief into a PowerPoint deck: **voice message in, `.pptx` out**,
 with a short spoken-style design conversation in between and a "talk to iterate" loop afterwards.
 
-Plain JavaScript (ESM) on Node. About 1.8k lines in `src/` (2.2k with tests and scripts), 18 tests. Extracted from a private
+Plain JavaScript (ESM) on Node. About 1.9k lines in `src/` (2.3k with tests and scripts), 18 tests. Extracted from a private
 monorepo with history dropped.
 
 **Status: deployed, and built quickly.** The original has run as a systemd service on a small server since
@@ -103,7 +103,7 @@ inventing facts: figures and names must trace to what the user said or to a retr
 ```bash
 cp .env.example .env     # fill in TELEGRAM_BOT_TOKEN, OPENAI_API_KEY, ALLOWED_USER_IDS
 npm ci
-npm test                 # 18 tests, no network, no secrets needed
+npm test                 # 18 tests, no network, no secrets needed (one skips without bwrap)
 npm start
 ```
 
@@ -112,7 +112,8 @@ The tests set their own dummy environment variables.
 
 ## Honest limits
 
-- **Few tests.** 4 test files, 18 tests. They cover the allowlist, the state file handling, the sandbox
+- **Few tests.** 4 test files, 18 tests. The end-to-end sandbox test needs bubblewrap (`bwrap`) and skips
+  where it is missing. They cover the allowlist, the state file handling, the sandbox
   and the `claude` argument lists. `bot.js` (the Telegraf wiring) and the engines are not covered, and
   there is no CI.
 - **JavaScript, not TypeScript.** Nothing checks the shape of the session JSON on load.

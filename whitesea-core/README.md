@@ -3,7 +3,7 @@
 The pure simulation core of **WhiteSea's island mode**, extracted from a private
 project: a hex-grid production puzzle (build, upgrade, demolish on a queue; resources
 accrue over time; the island can also sail across a sea). About 3,000 lines of
-TypeScript in `src/core/` and 19 test files (227 tests) in `tests/core/`.
+TypeScript in `src/` (2,800 of them in `src/core/`) and 19 test files (227 tests) in `tests/core/`.
 
 There is no UI, no rendering and no three.js here. The core is headless: plain
 types and pure functions. In the full project, `game/`, `render/` and `ui/` sit

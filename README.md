@@ -83,7 +83,7 @@ The two code samples are different on purpose, and neither is both.
   testing that logic.
 
 **Node.js: `voicepptx/`**
-- About 1,800 lines in `src/` plus 380 lines of tests and scripts, in plain JavaScript.
+- About 1,900 lines in `src/` plus 380 lines of tests and scripts, in plain JavaScript.
   **It is not TypeScript**, so nothing checks the shape of its data at compile time.
 - It uses Node built-ins directly: `node:fs/promises` for state files,
   `node:child_process` to run the `claude` CLI, `node:path`, `node:os`, and
