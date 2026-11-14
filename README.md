@@ -32,7 +32,7 @@ is, and which parts are TypeScript and which are Node.js.
 |---|---|---|---|---|
 | [`whitesea-core/`](whitesea-core/) | Simulation core of a hex-grid strategy game | **Work in progress**: the game is unfinished, this is the engine part as it stands | TypeScript (strict) | 227 (vitest) |
 | [`voicepptx/`](voicepptx/) | Telegram bot: voice message in, PowerPoint out | **Quick trial**: a prototype to see whether the idea works end to end, not a hardened product. The original runs on a small server | JavaScript (ESM) on Node.js | 18 (`node:test`) |
-| [`workflow/`](workflow/) | Write-up of how AI tools are used with control | Written from the real setup | Markdown (the tooling it describes is Python and shell) | n/a |
+| [`workflow/`](workflow/) | Write-up of how AI tools are called and controlled. | Taken from my Own Workflow | Markdown (the tooling it describes is Python and shell) | n/a |
 | [`vote-service/`](vote-service/) | Small vote-counting service with integrity rules and an SMS confirmation step (sender mocked) | **Working, not deployed.** Built from scratch, one layer at a time, with a small voting page and a Features page. Its README lists what it does not stop | TypeScript (strict) on Node.js and in the browser, no runtime dependencies | 143 (`node:test`) |
 
 ## How the repository is laid out
