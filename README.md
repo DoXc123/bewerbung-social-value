@@ -6,7 +6,7 @@ Mein Name ist Seth Krämer, ich bin 25 Jahre alt und studiere Physik im Bachelor
 Ich bin gebürtiger Kölner und interessiere mich schon länger für Softwareentwicklung und KI. Im Rahmen meines Physikstudiums erlerne ich laufend das systematische Denken und Analysieren von Problemen und freue mich dieses Kompetenzen in der echten Arbeitswelt anzuwenden.
 In meiner Freizeit beschäftige ich mich mit Spielentwicklung/App-Entwicklung und Ideen des Effektiven Altruismus sowie philosophischen Texten.
 
-Social Value interessiert mich da Sie sich für soziale Projekte einsetzen, und das auch über digitale Anwendungen. So wie durch Ihr Crowdvoting und Spendenwettbewerbe. Sie wirken für mich dadurch als menschennah und aufgeschlossen und das finde ich sehr wichtig. Ich sehe in Social Value also die Möglichkeit, durch praktische Erfahrung, Ideen des Effektiven Altruismus im Geschäftsalltag zu erforschen.
+Social Value interessiert mich da Sie sich für soziale Projekte einsetzen, und das auch über digitale Anwendungen, sowie durch Ihr Crowdvoting und Spendenwettbewerb. Sie wirken für mich dadurch als menschennah und aufgeschlossen und das finde ich sehr wichtig. Ich sehe in Social Value also die Möglichkeit, durch praktische Erfahrung, Ideen des Effektiven Altruismus im Geschäftsalltag zu erforschen.
 
 Workshop-Präsenz und Sprint-Planungen sind für mich kein Problem. Teilzeit passt mir sehr gut, da ich noch studiere. Ich habe an 15 Std./Woche gedacht, kann aber auch auf 20 Std./Woche hochgehen. Zu Klausurenphasen wäre ich allerdings etwas im Studium eingespannt. Das ist meist zu Ende der Vorlesungszeit für ca. 2 Wochen.
 Der Start im Dezember passt mir gut.
